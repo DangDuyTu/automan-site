@@ -103,7 +103,7 @@ footer { color: var(--text-2); font-size: 14px; text-align: center; }
 <header>
     <a class="brand" href="/"><img src="/icon.svg" alt="">Fayol Auto</a>
     <h1>Chính sách quyền riêng tư<br><span class="muted" style="font-size:0.7em;font-weight:600">Privacy Policy</span></h1>
-    <p class="meta">Có hiệu lực từ 21/10/2026 · Effective October 21, 2026</p>
+    <p class="meta">Có hiệu lực từ 22/10/2026 · Effective October 22, 2026</p>
     <nav class="lang"><a href="#vi">Tiếng Việt</a><a href="#en">English</a></nav>
 </header>
 
@@ -153,7 +153,7 @@ footer { color: var(--text-2); font-size: 14px; text-align: center; }
 
     <h2>4. Dịch vụ của bên thứ ba</h2>
     <ul>
-        <li><strong>Cloudflare</strong>: kết nối giữa ứng dụng và máy chủ Fayol đi qua mạng của Cloudflare để được bảo vệ và chuyển tiếp. Cloudflare xử lý dữ liệu kết nối như địa chỉ IP theo chính sách của họ. Dữ liệu nhóm được lưu trên máy chủ Fayol; bản sao lưu của máy chủ được mã hóa trên máy chủ Fayol rồi mới gửi tới kho lưu trữ R2 của Cloudflare (khu vực châu Á - Thái Bình Dương), nên Cloudflare không đọc được nội dung.</li>
+        <li><strong>Cloudflare</strong>: kết nối giữa ứng dụng và máy chủ Fayol đi qua mạng của Cloudflare để được bảo vệ và chuyển tiếp (khi tên miền .vn của Fayol không truy cập được: qua tên dự phòng fayolapp.com của cùng máy chủ). Cloudflare xử lý dữ liệu kết nối như địa chỉ IP theo chính sách của họ. Dữ liệu nhóm được lưu trên máy chủ Fayol; bản sao lưu của máy chủ được mã hóa trên máy chủ Fayol rồi mới gửi tới kho lưu trữ R2 của Cloudflare (khu vực châu Á - Thái Bình Dương), nên Cloudflare không đọc được nội dung.</li>
         <li><strong>ML Kit của Google</strong> (Android): đọc mã QR mời (quét hoặc từ ảnh) qua Google Play services, chạy trên điện thoại; ảnh không được gửi đi. Google có thể nhận số liệu kỹ thuật về việc dùng tính năng này (không gồm ảnh) theo điều khoản của Google.</li>
     </ul>
 
@@ -240,7 +240,7 @@ footer { color: var(--text-2); font-size: 14px; text-align: center; }
 
     <h2>4. Third-party services</h2>
     <ul>
-        <li><strong>Cloudflare</strong>: connections between the app and Fayol servers go through Cloudflare's network, which protects and forwards them. Cloudflare processes connection data such as IP addresses under its own policies. Team data is stored on Fayol servers; the server's backups are encrypted on the Fayol server before they are sent to Cloudflare's R2 storage (Asia-Pacific region), so Cloudflare cannot read their content.</li>
+        <li><strong>Cloudflare</strong>: connections between the app and Fayol servers go through Cloudflare's network, which protects and forwards them (when Fayol's .vn domain cannot be reached: through the backup domain fayolapp.com, served by the same servers). Cloudflare processes connection data such as IP addresses under its own policies. Team data is stored on Fayol servers; the server's backups are encrypted on the Fayol server before they are sent to Cloudflare's R2 storage (Asia-Pacific region), so Cloudflare cannot read their content.</li>
         <li><strong>Google ML Kit</strong> (Android): reads invite QR codes (scanned or from a photo) through Google Play services, on the phone; images are not sent anywhere. Google may receive technical metrics about the use of this feature (no images) under Google's terms.</li>
     </ul>
 
